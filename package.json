@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.4.1"
+  },
+  "name": "task_manager",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salarraza28-sys/ToDoTaskManager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salarraza28-sys/ToDoTaskManager/issues"
+  },
+  "homepage": "https://github.com/salarraza28-sys/ToDoTaskManager#readme",
+  "description": ""
+}
