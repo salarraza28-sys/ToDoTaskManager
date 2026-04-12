@@ -38,5 +38,14 @@ router.patch("/:id",async(req, res)=>{
     res.status(400).json({message:error.message});
 }
 }); 
+// Delete a todo
+router.delete("/:id", async(req,res) =>{
+    try{
+        await Todo.findByIdAndDelete(req.params.id);
+        res.json({message: "Todo deleted"});
+    } catch (error){
+        res.status(500).json({message:error.message})
+    }
 
+})
 
