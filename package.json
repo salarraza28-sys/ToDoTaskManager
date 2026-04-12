@@ -6,14 +6,18 @@
   "name": "task_manager",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
   "scripts": {
+    "dev":"nodemon backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/salarraza28-sys/ToDoTaskManager.git"
   },
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
